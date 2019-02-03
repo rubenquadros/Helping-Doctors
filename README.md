@@ -67,7 +67,7 @@ To build the application follow the below steps:
 
 ## AudioVedioApp (Web Application)
 
-This application is present [here](/AudioVedioApp/).
+This application is present [here](/Web%20App/AudioVedioApp).
 
 If you want to build the application yourself follow the below steps:
 
@@ -76,7 +76,7 @@ If you want to build the application yourself follow the below steps:
 2. Download the Signalling SDK for web from [here](https://docs.agora.io/en/Signaling/downloads)
    
    Extract the downloaded file and navigate inside the libs folder
-   Re-name AgoraSig-1.4.0.js to AgoraSig.js and place it [here](/AudioVedioApp/static) 
+   Re-name AgoraSig-1.4.0.js to AgoraSig.js and place it [here](/Web%20App/AudioVedioApp/static) 
 
 3. Update "\AudioVedioApp\static\agora.config.js" with your App ID: 
 
@@ -91,7 +91,7 @@ If you want to build the application yourself follow the below steps:
 
 ## WebApp (Web Application)
 
-This application is present [here](/WebApp/).
+This application is present [here](/Web%20App/WebApp).
 
 To build the application yourself follow the below steps:
 
