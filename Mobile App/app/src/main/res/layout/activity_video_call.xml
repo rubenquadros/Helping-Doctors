@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/root_layout_video_call"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+            android:id="@+id/remote_video_view_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+    />
+
+    <RelativeLayout
+            android:id="@+id/call_layout_tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="120dp"
+            android:layout_alignParentBottom="true">
+
+        <ImageView
+                android:id="@+id/call_mute_button"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:button="@null"
+                android:layout_marginLeft="40dp"
+                android:tint="@color/colorRed"
+                android:background="@drawable/circle_img_secondary"
+                android:layout_centerVertical="true"
+                app:srcCompat="@drawable/mute_mic"/>
+
+        <ImageView
+                android:id="@+id/call_switch_camera"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:onClick="onSwitchCameraClicked"
+                android:layout_marginRight="40dp"
+                android:tint="@color/colorRed"
+                android:layout_centerVertical="true"
+                android:background="@drawable/circle_img_secondary"
+                app:srcCompat="@drawable/switch_camera"/>
+
+    </RelativeLayout>
+
+    <ImageView
+            android:id="@+id/call_button_hangup"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:button="@null"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="60dp"
+            android:onClick="CallClickInit"
+            android:background="@drawable/circle_img"
+            app:srcCompat="@drawable/call_end"/>
+
+
+
+</RelativeLayout>

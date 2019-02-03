@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/root_layout_profile"
+        tools:context=".activity.Profile">
+
+    <android.support.design.widget.AppBarLayout
+            android:id="@+id/appBarLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="1.0">
+
+        <include layout="@layout/toolbar_layout"/>
+        
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@+id/appBarLayout3"
+            app:layout_constraintEnd_toEndOf="@+id/appBarLayout3"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/appBarLayout3"
+            android:id="@+id/nestedScrollView2">
+
+        <LinearLayout
+                android:id="@+id/personal_info_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:orientation="vertical"
+                android:focusableInTouchMode="true">
+
+            <com.airbnb.lottie.LottieAnimationView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="2.0"
+                    app:lottie_autoPlay="true"
+                    app:lottie_colorFilter="@color/colorPrimary"
+                    app:lottie_fileName="profile.json"
+                    app:lottie_loop="true"
+                    android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                    android:id="@+id/name_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="34.3dp"
+                    android:layout_marginStart="34.3dp"
+                    android:layout_marginTop="16dp"
+                    android:maxLines="1"
+                    android:text="@string/name"
+                    android:textAlignment="viewStart"/>
+
+            <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/name_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="27.3dp"
+                    android:layout_marginStart="27.7dp"
+                    android:clickable="false"
+                    android:cursorVisible="false"
+                    android:focusable="false"
+                    android:textAlignment="viewStart"
+                    android:focusableInTouchMode="false"
+                    android:imeOptions="actionNext"
+                    android:textColor="@color/colorBlack"
+                    android:inputType="text"
+                    android:maxLines="1"/>
+
+
+            <TextView
+                    android:id="@+id/email_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="34.3dp"
+                    android:layout_marginStart="34.3dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/email"
+                    android:textAlignment="viewStart"/>
+
+            <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/email_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="27.3dp"
+                    android:layout_marginStart="27.7dp"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    tools:text="hello.abc@hdm.cid"
+                    android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                    android:id="@+id/msisdn_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="34.3dp"
+                    android:layout_marginStart="34.3dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/mobileNum"
+                    android:textAlignment="viewStart"/>
+
+            <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/msisdn_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="27.3dp"
+                    android:layout_marginStart="27.7dp"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:maxLines="1"
+                    android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                    android:id="@+id/gender_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="34.3dp"
+                    android:layout_marginStart="34.3dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/gender"
+                    android:textAlignment="viewStart"/>
+
+            <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/gender_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="27.3dp"
+                    android:layout_marginStart="27.7dp"
+                    android:clickable="false"
+                    android:cursorVisible="false"
+                    android:focusable="false"
+                    android:textAlignment="viewStart"
+                    android:focusableInTouchMode="false"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:textColor="@color/colorBlack"
+                    android:maxLines="1"/>
+
+            <TextView
+                    android:id="@+id/dob_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="34.3dp"
+                    android:layout_marginStart="34.3dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/dob"
+                    android:textAlignment="viewStart"/>
+
+            <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/dob_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="27.3dp"
+                    android:layout_marginStart="27.7dp"
+                    android:clickable="false"
+                    android:cursorVisible="false"
+                    android:focusable="false"
+                    android:textAlignment="viewStart"
+                    android:focusableInTouchMode="false"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:textColor="@color/colorBlack"/>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.v7.widget.AppCompatButton
+            android:id="@+id/save_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@drawable/button_background"
+            android:text="@string/save"
+            android:textColor="@color/colorWhite"
+            android:layout_margin="8dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="@+id/appBarLayout3"/>
+    <ProgressBar
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/profileProgressBar"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="@+id/appBarLayout3"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp"
+            android:visibility="gone"/>
+
+</android.support.constraint.ConstraintLayout>

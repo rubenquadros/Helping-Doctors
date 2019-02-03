@@ -1,0 +1,169 @@
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/otp_input_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="16dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <TextView
+                android:id="@+id/textView17"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="32dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="16dp"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:text="@string/otp_input_msg"
+                android:textColor="@color/colorBlack"
+                android:textAlignment="viewStart"
+                android:textDirection="locale"
+                app:layout_constraintBottom_toTopOf="@+id/textView18"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+                android:id="@+id/textView18"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:paddingBottom="5dp"
+                android:paddingEnd="5dp"
+                android:paddingStart="20dp"
+                android:paddingTop="5dp"
+                android:textDirection="locale"
+                android:textAlignment="viewStart"
+                android:text="@string/otp_input_2"
+                android:textColor="@color/colorBlack"
+                app:layout_constraintBottom_toTopOf="@+id/sedit0"
+                app:layout_constraintEnd_toEndOf="@+id/textView17"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="@+id/textView17"
+                app:layout_constraintTop_toBottomOf="@+id/textView17"/>
+
+        <android.support.design.widget.TextInputLayout
+                android:id="@+id/sedit0"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                app:hintEnabled="false"
+                app:layout_constraintBottom_toTopOf="@+id/textView19"
+                app:layout_constraintEnd_toEndOf="@+id/textView18"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="@+id/textView18"
+                app:layout_constraintTop_toBottomOf="@+id/textView18">
+
+            <android.support.design.widget.TextInputEditText
+                    android:id="@+id/otp_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:digits="0123456789"
+                    android:ems="10"
+                    android:textDirection="locale"
+                    android:textAlignment="viewStart"
+                    android:hint="@string/otp_input_placeholder"
+                    android:textColor="@color/colorBlack"
+                    android:imeOptions="actionDone"
+                    android:includeFontPadding="false"
+                    android:inputType="numberPassword"
+                    android:maxLength="6"
+                    android:maxLines="1"
+                    android:singleLine="true"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingEnd="5dp"
+                android:paddingStart="20dp"
+                android:text="@string/otp_input_3"
+                android:textDirection="locale"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorBlack"
+                app:layout_constraintStart_toStartOf="@+id/textView18"
+                app:layout_constraintTop_toBottomOf="@+id/sedit0"/>
+
+        <ImageView
+                android:id="@+id/resend_image"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="20dp"
+                android:padding="20dp"
+                android:tint="@color/colorPrimary"
+                app:layout_constraintBottom_toBottomOf="@+id/resend_text"
+                app:layout_constraintStart_toStartOf="@+id/textView19"
+                app:layout_constraintTop_toTopOf="@+id/resend_text"
+                app:srcCompat="@drawable/refresh" />
+
+    <TextView
+            android:id="@+id/resend_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:padding="20dp"
+            android:text="@string/otp_input_3"
+            android:textColor="@color/colorBlack"
+            android:textDirection="locale"
+            android:textAlignment="viewStart"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/resend_image"
+            app:layout_constraintTop_toBottomOf="@+id/textView19"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/resend_text"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp">
+
+        <Button
+                android:id="@+id/cancel_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="0.5"
+                android:padding="0dp"
+                android:background="@drawable/button_background"
+                android:textColor="@color/colorWhite"
+                android:textAllCaps="false"
+                android:text="@string/cancel"
+                android:layout_marginStart="8dp"/>
+
+        <Button
+                android:id="@+id/verify_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="0.5"
+                android:padding="0dp"
+                android:background="@drawable/button_background"
+                android:textColor="@color/colorWhite"
+                android:textAllCaps="false"
+                android:text="@string/login"
+                android:layout_marginStart="8dp"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
