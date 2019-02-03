@@ -41,13 +41,13 @@ To build the application follow the below steps:
 
    Extract the downloaded file and navigate inside the libs folder. 
    Copy agora-rtc-sdk.jar into the lib folder in your project.
-   Copy the remaining folders into [jniLibs folder](/Mobile App/app/src/main/jniLibs/)
+   Copy the remaining folders into [jniLibs folder](Mobile App/app/src/main/jniLibs/)
    
 4. Download the Agora Signalling SDK from [here](https://docs.agora.io/en/Signaling/downloads)
 
    Extract the downloaded file and navigate inside the libs folder
    Copy agora-sig-sdk.jar into the lib folder in your project
-   Copy the content inside the remaining folders into [jniLibs folder](/Mobile App/app/src/main/jniLibs/)
+   Copy the content inside the remaining folders into [jniLibs folder](Mobile App/app/src/main/jniLibs/)
 
 5. Go to [Firebase Console](https://console.firebase.google.com/) and login using your google credentials.
 
@@ -62,7 +62,7 @@ To build the application follow the below steps:
    
    You can generate your SHA-1 certificate by following [this](https://developers.google.com/android/guides/client-auth)
 
-9. Once you add your SHA-1 certificate, download the google-services.json file and replace it [here](/Mobile App/app/)
+9. Once you add your SHA-1 certificate, download the google-services.json file and replace it [here](Mobile App/app/)
 
 
 ## AudioVedioApp (Web Application)
