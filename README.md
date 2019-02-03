@@ -73,22 +73,27 @@ If you want to build the application yourself follow the below steps:
 
 1. Create a developer account at [Agora.io](https://agora.io) and obtain an App ID.
 
-2. Update "\AudioVedioApp\static\agora.config.js" with your App ID: 
+2. Download the Signalling SDK for web from [here](https://docs.agora.io/en/Signaling/downloads)
+   
+   Extract the downloaded file and navigate inside the libs folder
+   Re-name AgoraSig-1.4.0.js to AgoraSig.js and place it [here](/AudioVedioApp/static) 
+
+3. Update "\AudioVedioApp\static\agora.config.js" with your App ID: 
 
  ```xml
  const AGORA_APP_ID = 'YOUR_APP_ID'
  ```
-3. Open the project in visual studi code
+4. Open the project in visual studio code
 
-4. Execute "npm install" command  in the terminal- this will download the all the neccesary  node modules.
+5. Execute "npm install" command  in the terminal- this will download the all the neccesary  node modules.
 
-5. Execute "npm start" command in the terminal - this will start the development server to make Audio and Vedio calls.
+6. Execute "npm start" command in the terminal - this will start the development server to make Audio and Vedio calls.
 
 ## WebApp (Web Application)
 
 This application is present [here](/WebApp/).
 
-If you want to build the application yourself follow the below steps:
+To build the application yourself follow the below steps:
 
 1. Open the project in visual studio code
 
