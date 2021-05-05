@@ -1,0 +1,19 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/Web App/WebApp"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: firebase
+    versions:
+    - 8.3.1
+    - 8.3.2
+    - 8.3.3
+    - 8.4.1
+- package-ecosystem: npm
+  directory: "/Web App/AudioVedioApp"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
