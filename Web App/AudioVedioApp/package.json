@@ -19,7 +19,7 @@
     "not ie <= 8"
   ],
   "devDependencies": {
-    "autoprefixer": "^7.2.6",
+    "autoprefixer": "^9.8.6",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.0",
