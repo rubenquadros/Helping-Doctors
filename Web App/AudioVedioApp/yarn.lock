@@ -912,9 +912,9 @@ babel-code-frame@^6.26.0:
     esutils "^2.0.2"
     js-tokens "^3.0.2"
 
-babel-core@^6.26.0:
+babel-core@^6.26.0, babel-core@^6.26.3:
   version "6.26.3"
-  resolved "http://registry.npm.taobao.org/babel-core/download/babel-core-6.26.3.tgz#b2e2f09e342d0f0c88e2f02e067794125e75c207"
+  resolved "https://registry.yarnpkg.com/babel-core/-/babel-core-6.26.3.tgz#b2e2f09e342d0f0c88e2f02e067794125e75c207"
   dependencies:
     babel-code-frame "^6.26.0"
     babel-generator "^6.26.0"
@@ -2154,11 +2154,7 @@ content-type@~1.0.4:
   version "1.0.4"
   resolved "http://registry.npm.taobao.org/content-type/download/content-type-1.0.4.tgz#e138cc75e040c727b1966fe5e5f8c9aee256fe3b"
 
-convert-source-map@^1.4.0, convert-source-map@^1.5.1:
-  version "1.5.1"
-  resolved "http://registry.npm.taobao.org/convert-source-map/download/convert-source-map-1.5.1.tgz#b8278097b9bc229365de5c62cf5fcaed8b5599e5"
-
-convert-source-map@^1.6.0, convert-source-map@^1.7.0:
+convert-source-map@^1.4.0, convert-source-map@^1.5.1, convert-source-map@^1.6.0, convert-source-map@^1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/convert-source-map/-/convert-source-map-1.7.0.tgz#17a2cb882d7f77d3490585e2ce6c524424a3a442"
   dependencies:
