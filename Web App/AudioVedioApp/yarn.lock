@@ -724,9 +724,9 @@ agent-base@6:
   dependencies:
     debug "4"
 
-agora-rtc-sdk@^3.5.2:
-  version "3.5.2"
-  resolved "https://registry.yarnpkg.com/agora-rtc-sdk/-/agora-rtc-sdk-3.5.2.tgz#b52e3d33532b83d55fd716ced034a0777d291685"
+agora-rtc-sdk@^3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/agora-rtc-sdk/-/agora-rtc-sdk-3.6.0.tgz#05295758b34e386226665b90485487309476320a"
 
 ajv-errors@^1.0.0:
   version "1.0.1"
