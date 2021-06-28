@@ -3771,9 +3771,9 @@ hosted-git-info@^2.1.4:
   version "2.6.0"
   resolved "http://registry.npm.taobao.org/hosted-git-info/download/hosted-git-info-2.6.0.tgz#23235b29ab230c576aab0d4f13fc046b0b038222"
 
-howler@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/howler/-/howler-2.2.1.tgz#a521a9b495841e8bb9aa12e651bebba0affc179e"
+howler@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/howler/-/howler-2.2.2.tgz#0523b737bd2a7b0a0885e57acb9eede26c13807d"
 
 hpack.js@^2.1.6:
   version "2.1.6"

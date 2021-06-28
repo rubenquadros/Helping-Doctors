@@ -58,7 +58,7 @@
     "agora-rtc-sdk": "^3.6.0",
     "bootstrap-material-design-icons": "^2.2.0",
     "events": "^3.3.0",
-    "howler": "^2.2.1",
+    "howler": "^2.2.2",
     "jquery": "^3.6.0",
     "less-loader": "^4.1.0",
     "popper.js": "^1.16.1",
