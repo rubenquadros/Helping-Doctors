@@ -774,9 +774,9 @@ agent-base@6:
   dependencies:
     debug "4"
 
-agora-rtc-sdk@^3.6.2:
-  version "3.6.2"
-  resolved "https://registry.yarnpkg.com/agora-rtc-sdk/-/agora-rtc-sdk-3.6.2.tgz#acde14a069df6cd0b438a52f7a91cccd8347a399"
+agora-rtc-sdk@^3.6.3:
+  version "3.6.3"
+  resolved "https://registry.yarnpkg.com/agora-rtc-sdk/-/agora-rtc-sdk-3.6.3.tgz#1659aec1b0cdedac5334f1854fba9d3468a60b78"
 
 ajv-errors@^1.0.0:
   version "1.0.1"
@@ -2994,9 +2994,9 @@ eslint-config-prettier@^8.3.0:
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.3.0.tgz#f7471b20b6fe8a9a9254cc684454202886a2dd7a"
 
-eslint-config-xo@^0.37.0:
-  version "0.37.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-xo/-/eslint-config-xo-0.37.0.tgz#5f2f339a04b7c1207d5a24236e9b4913cb2d39fe"
+eslint-config-xo@^0.38.0:
+  version "0.38.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-xo/-/eslint-config-xo-0.38.0.tgz#50cbe676a90d5582e1bbf1de750286e7cf09378e"
   dependencies:
     confusing-browser-globals "1.0.10"
 
@@ -5710,8 +5710,8 @@ path-key@^3.0.0, path-key@^3.1.0:
   resolved "https://registry.yarnpkg.com/path-key/-/path-key-3.1.1.tgz#581f6ade658cbba65a0d3380de7753295054f375"
 
 path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
 
 path-to-regexp@0.1.7:
   version "0.1.7"
