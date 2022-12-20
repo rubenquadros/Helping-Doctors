@@ -6,7 +6,7 @@
     "antd": "^4.16.11",
     "axios": "^0.21.1",
     "firebase": "^8.9.1",
-    "jquery": "^3.6.0",
+    "jquery": "^3.6.3",
     "react": "^16.7.0",
     "react-dom": "^16.14.0",
     "react-navigation": "^4.4.4",
